@@ -20,10 +20,10 @@ import (
 )
 
 func main() {
-	parsedDsn, err := dsnParser.New("postgres://user:password@db1:5432/test?sslmode=disable")
+    parsedDsn, err := dsnParser.New("postgres://user:password@db1:5432/test?sslmode=disable")
 	
-	if err != nil {
-		log.Fatalln(err)
+    if err != nil {
+        log.Fatalln(err)
     }
     
     log.Printf("DSN url parsed successfully. Parsed DSN url: %s", parsedDsn.Dsn)
