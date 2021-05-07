@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/sidmal/dsn-parser.svg?branch=master)](https://travis-ci.com/github/sidmal/dsn-parser)
 [![codecov](https://codecov.io/gh/sidmal/dsn-parser/branch/master/graph/badge.svg)](https://codecov.io/gh/sidmal/dsn-parser)
 
-Simple Go library to parse DSN urls
+Simple Go library to parse DSN urls.
 
 ## Installation
 
